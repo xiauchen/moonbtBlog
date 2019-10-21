@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head th:replace="admin/_fragments :: head(~{::title})">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+   <link rel="stylesheet" href="../../static/css/me.css">
+   <title>博客管理</title>
+</head>
+
+<body>
+<br>
+<br>
+<br>
+<div class="m-container-small m-padded-tb-massive" style="max-width: 30em !important;">
+ <div class="ui container">
+    <div class="ui middle aligned center aligned grid">
+       <div class="column">
+          <h2 class="ui teal image header" id="538f9f9e-a0ce-9b6e-b7c9-b15560b5ab8c">
+<!--             <img src="assets/images/logo.png" class="image">-->
+             <div class="content">
+                管理後臺登錄
+             </div>
+          </h2>
+          <form class="ui large form" method="post" action="#" th:action="@{/admin/login}">
+             <div class="ui segment">
+                <div class="field">
+                   <div class="ui left icon input">
+                      <i class="user icon"></i>
+                      <input type="text" name="username" placeholder="用戶名">
+                   </div>
+                </div>
+                <div class="field">
+                   <div class="ui left icon input">
+                      <i class="lock icon"></i>
+                      <input type="password" name="password" placeholder="密碼">
+                   </div>
+                </div>
+                <div class="ui fluid large teal submit button">登   錄</div>
+             </div>
+
+             <div class="ui error message"></div>
+
+          </form>
+
+<!--          <div class="ui message">-->
+<!--             New to us? <a href="#">Sign Up</a>-->
+<!--          </div>-->
+       </div>
+    </div>
+ </div>
+</div>
+<!--/*/<th:block th:replace="_fragments :: spript">/*/-->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+<!--/*/</th:block>/*/-->
+</body>
+
+</html>
