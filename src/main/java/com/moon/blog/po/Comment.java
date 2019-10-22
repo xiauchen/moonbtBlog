@@ -19,12 +19,15 @@ public class Comment {
     @Temporal(TemporalType.TIMESTAMP)
     private Date createTime;
 
+    private boolean adminComment;
+
     @ManyToOne
     private Blog blog;
     @OneToMany(mappedBy = "parentComment")
     private List<Comment> replyComments = new ArrayList<>();
     @ManyToOne()
     private Comment parentComment;
+
     @Override
     public String toString() {
         return "Comment{" +
@@ -34,9 +37,12 @@ public class Comment {
                 ", content='" + content + '\'' +
                 ", avatar='" + avatar + '\'' +
                 ", createTime=" + createTime +
+                ", adminComment=" + adminComment +
+                ", blog=" + blog +
+                ", replyComments=" + replyComments +
+                ", parentComment=" + parentComment +
                 '}';
     }
-
 
     public Long getId() {
         return id;
@@ -111,5 +117,13 @@ public class Comment {
 
     public void setParentComment(Comment parentComment) {
         this.parentComment = parentComment;
+    }
+
+    public boolean isAdminComment() {
+        return adminComment;
+    }
+
+    public void setAdminComment(boolean adminComment) {
+        this.adminComment = adminComment;
     }
 }
