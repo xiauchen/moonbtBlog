@@ -12,7 +12,10 @@ import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import javax.persistence.criteria.Order;
 import java.util.List;
+import java.util.Properties;
+
 
 @Service
 public class TypeServiceImpl implements TypeService {
@@ -47,6 +50,14 @@ public class TypeServiceImpl implements TypeService {
     @Override
     public List<Type> listType() {
         return typeRepository.findAll();
+    }
+
+    @Override
+    public List<Type> listTypeTop(Integer size) {
+        //Sort sort = new Sort(Sort.Direction.DESC,"blogs.size");
+        //Pageable pageable = new PageRequest(0,size,sort)
+        Pageable pageable = PageRequest.of(0,size,Sort.by(Sort.Direction.DESC,"blogs.size"));;
+        return typeRepository.findTop(pageable);
     }
 
     @Transactional
