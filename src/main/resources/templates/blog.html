@@ -39,7 +39,7 @@
    <br>
    <!--中間内容-->
    <div id="waypoint" class="m-container-small m-padded-tb-big animated fadeIn">
-      <div class="ui container">
+      <div class="ui container ">
          <div class="ui top attached segment">
             <!--頭部區-->
             <div class="ui horizontal link list">
@@ -65,7 +65,7 @@
                <div class="ui orange basic label" th:text="${blog.flag}">原創</div>
             </div>
             <h2 id="title-head" class="ui center aligned header" th:text="${blog.title}">增加部落格網站流量的7個方法</h2>
-            <div id="content" class="typo typo-selection js-toc-content  m-padded-lr-responsive m-padded-tb-large" th:text="${blog.content}">
+            <div id="content" class="typo typo-selection js-toc-content  m-padded-lr-responsive m-padded-tb-large" th:utext="${blog.content}">
 
                <h2 id="1">1</h2>
                <pre><code class="language-css">p{ color: red}</code></pre>
@@ -143,84 +143,88 @@
                </div>
             </div>
          </div>
-         <div id="comment-container" class="ui bottom attached segment">
+         <div class="ui bottom attached segment">
             <!--留言區域-->
-            <div class="ui teal segment">
-               <div class="ui comments">
-                  <h3 class="ui dividing header" id="3676740d-c3e0-2e59-981d-978c3dbb6a55">Comments</h3>
-                  <div class="comment">
-                     <a class="avatar">
-                        <img src="https://picsum.photos/id/0/100/100">
-                     </a>
-                     <div class="content">
-                        <a class="author">Matt</a>
-                        <div class="metadata">
-                           <span class="date">Today at 5:42PM</span>
-                        </div>
-                        <div class="text">
-                           How artistic!
-                        </div>
-                        <div class="actions">
-                           <a class="reply">回復</a>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="comment">
-                     <a class="avatar">
-                        <img src="https://picsum.photos/id/0/100/100">
-                     </a>
-                     <div class="content">
-                        <a class="author">Elliot Fu</a>
-                        <div class="metadata">
-                           <span class="date">Yesterday at 12:30AM</span>
-                        </div>
-                        <div class="text">
-                           <p>This has been very useful for my research. Thanks as well!</p>
-                        </div>
-                        <div class="actions">
-                           <a class="reply">回復</a>
+            <div id="comment-container"  class="ui teal segment">
+               <div th:fragment="commentList">
+                  <div class="ui threaded comments" style="max-width: 100%;">
+                     <h3 class="ui dividing header" id="3676740d-c3e0-2e59-981d-978c3dbb6a55">評論</h3>
+                     <div class="comment">
+                        <a class="avatar">
+                           <img src="https://picsum.photos/id/0/100/100">
+                        </a>
+                        <div class="content">
+                           <a class="author">Matt</a>
+                           <div class="metadata">
+                              <span class="date">Today at 5:42PM</span>
+                           </div>
+                           <div class="text">
+                              How artistic!
+                           </div>
+                           <div class="actions">
+                              <a class="reply" data-commentid="1" data-commentnickname="Matt" onclick="reply(this)">回復</a>
+                           </div>
                         </div>
                      </div>
-                     <div class="comments">
-                        <div class="comment">
-                           <a class="avatar">
-                              <img src="https://picsum.photos/id/0/100/100">
-                           </a>
-                           <div class="content">
-                              <a class="author">Jenny Hess</a>
-                              <div class="metadata">
-                                 <span class="date">Just now</span>
-                              </div>
-                              <div class="text">
-                                 Elliot you are always so right :)
-                              </div>
-                              <div class="actions">
-                                 <a class="reply">回復</a>
+                     <div class="comment">
+                        <a class="avatar">
+                           <img src="https://picsum.photos/id/0/100/100">
+                        </a>
+                        <div class="content">
+                           <a class="author">Elliot Fu</a>
+                           <div class="metadata">
+                              <span class="date">Yesterday at 12:30AM</span>
+                           </div>
+                           <div class="text">
+                              <p>This has been very useful for my research. Thanks as well!</p>
+                           </div>
+                           <div class="actions">
+                              <a class="reply">回復</a>
+                           </div>
+                        </div>
+                        <div class="comments">
+                           <div class="comment">
+                              <a class="avatar">
+                                 <img src="https://picsum.photos/id/0/100/100">
+                              </a>
+                              <div class="content">
+                                 <a class="author">Jenny Hess</a>
+                                 <div class="metadata">
+                                    <span class="date">Just now</span>
+                                 </div>
+                                 <div class="text">
+                                    Elliot you are always so right :)
+                                 </div>
+                                 <div class="actions">
+                                    <a class="reply">回復</a>
+                                 </div>
                               </div>
                            </div>
                         </div>
                      </div>
-                  </div>
-                  <div class="comment">
-                     <a class="avatar">
-                        <img src="https://picsum.photos/id/0/100/100">
-                     </a>
-                     <div class="content">
-                        <a class="author">Joe Henderson</a>
-                        <div class="metadata">
-                           <span class="date">5 days ago</span>
-                        </div>
-                        <div class="text">
-                           Dude, this is awesome. Thanks so much
-                        </div>
-                        <div class="actions">
-                           <a class="reply">回復</a>
+                     <div class="comment">
+                        <a class="avatar">
+                           <img src="https://picsum.photos/id/0/100/100">
+                        </a>
+                        <div class="content">
+                           <a class="author">Joe Henderson</a>
+                           <div class="metadata">
+                              <span class="date">5 days ago</span>
+                           </div>
+                           <div class="text">
+                              Dude, this is awesome. Thanks so much
+                           </div>
+                           <div class="actions">
+                              <a class="reply">回復</a>
+                           </div>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
-            <div class="ui form">
+            <div id="comment-form" class="ui form">
+               <input type="hidden" name = "blog.id" th:value="${blog.id}">
+               <input type="hidden" name = "parentComment.id" th:value="-1">
                <div class="field">
                   <textarea name="content" placeholder="請輸入評論訊息" id="" cols="30" rows="10"></textarea>
                </div>
@@ -239,7 +243,7 @@
                   </div>
                </div>
                <div class="field m-mobile-wide m-margin-bottom-small">
-                  <button class="ui teal button m-mobile-wide">
+                  <button id="commentpost-btn" type="button" class="ui teal button m-mobile-wide">
                      <i class="edit icon"></i>發佈
                   </button>
                </div>
@@ -315,13 +319,13 @@
    <script src="https//cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>
    <!--/*/</th:block>/*/-->
    <!--mobile hide-->
-   <script>
+   <script th:inline="javascript">
       $('.menu.toggle').click(function () {
          $('.m-item').toggleClass('m-mobile-hide');
       });
-   </script>
+
    <!--popup-->
-   <script>
+
       $('.wechatx').popup({
          popup: $('.wechat-qr'),
          position: 'left center'
@@ -338,8 +342,12 @@
          position: 'left center'
       });
 
+      // var serurl = "http://www.imcoding.me";
+      var serurl = "127.0.0.1:8080";
+      var url=/*[{@(/blog/{id}(id=${blog.id})}]*/"";
+
       var qrcode = new QRCode("qrcode", {
-         text: "http://jindo.dev.naver.com/collie",
+         text: serurl+url,
          width: 90,
          height: 90,
          colorDark: "#000000",
@@ -373,6 +381,68 @@
             console.log('Scrolled to waypoint!' +direction)
          }
       })
+
+      $('.ui.form').form({
+         fields: {
+            title: {
+               identifier: 'nickname',
+               rules: [{
+                  type: 'empty',
+                  prompt: '標題：請輸入你的大名'
+               }]
+            },
+            content: {
+               identifier: 'content',
+               rules: [{
+                  type: 'empty',
+                  prompt: '標題：請輸入評論内容'
+               }]
+            },
+            typeId: {
+               identifier: 'email',
+               rules: [{
+                  type: 'empty',
+                  prompt: '標題：請輸入正確的郵箱地址'
+               }]
+            }
+         }
+      });
+
+      $('#commentpost-btn').click(function () {
+         var boo = $('.ui.form').form('validate form');
+         if(boo){
+            console.log('校驗成功');
+         }else{
+            console.log('校驗失敗');
+         }
+      });
+
+      function postData() {
+         $("#comment-container").load(/*[[@{/comments}]]*/"",{
+            "parentComment.id" : $("[name='parentComment.id']").val(),
+            "blog.id" : $("[name='blog.id']").val(),
+            "nickname": $("[name='nickname']").val(),
+            "email"   : $("[name='email']").val(),
+            "content" : $("[name='content']").val()
+         },function (responseTxt, statusTxt, xhr) {
+//        $(window).scrollTo($('#comment-container'),500);
+            clearContent();
+         });
+      }
+
+      function clearContent() {
+         $("[name='content']").val('');
+         $("[name='parentComment.id']").val(1)
+         $("[name='content']").attr("placeholder","請輸入評論訊息...");
+      }
+
+      function reply(obj){
+         var commentId = $(obj).data('commentid');
+         var commentNickname = $(obj).data('commentnickname');
+         $("[name='content']").attr("placeholder","@"+commentNickname).focus();
+         $("[name='parentComment.id']").val(commentId);
+         $(window).scrollTo($('#comment-form'),500);
+      }
    </script>
 </body>
 
