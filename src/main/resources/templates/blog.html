@@ -44,28 +44,29 @@
             <!--頭部區-->
             <div class="ui horizontal link list">
                <div class="item">
-                  <img src="https://picsum.photos/id/0/100/100" alt="" class="ui avatar image">
-                  <div class="content"><a class="header">Moon</a></div>
+                  <img src="https://picsum.photos/id/0/100/100" th:src="@{${blog.user.avatar}}" alt="" class="ui avatar image">
+                  <div class="content"><a href="#" class="header" th:text="${blog.user.nickname}">Moon</a></div>
                </div>
                <div class="item">
-                  <i class="calendar icon"></i>2019-10-18
+                  <i class="calendar icon"></i><span th:text="${#dates.format(blog.updateTime,'yyyy-MM-dd')}">2019-10-18</span>
                </div>
                <div class="item">
-                  <i class="eye icon"></i>888
+                  <i class="eye icon"></i><span th:text="${blog.views}">888</span>
                </div>
             </div>
          </div>
          <div class="ui attached segment">
             <!--圖片區-->
-            <img src="https://picsum.photos/id/0/800/450" alt="" class="ui fluid rounded image">
+            <img src="https://picsum.photos/id/0/800/450" th:src="@{${blog.firstPicture}}" alt="" class="ui fluid rounded image">
          </div>
          <div class="ui attached segment">
             <!--内容-->
             <div class="ui right aligned basic segment">
-               <div class="ui orange basic label">原創</div>
+               <div class="ui orange basic label" th:text="${blog.flag}">原創</div>
             </div>
-            <h2 id="title-head" class="ui center aligned header">增加部落格網站流量的7個方法</h2>
-            <div id="content" class="typo typo-selection js-toc-content  m-padded-lr-responsive m-padded-tb-large">
+            <h2 id="title-head" class="ui center aligned header" th:text="${blog.title}">增加部落格網站流量的7個方法</h2>
+            <div id="content" class="typo typo-selection js-toc-content  m-padded-lr-responsive m-padded-tb-large" th:text="${blog.content}">
+
                <h2 id="1">1</h2>
                <pre><code class="language-css">p{ color: red}</code></pre>
                <p>首先你要挑選一個好用的平台，廣告少、垃圾留言少，不管是桌上型電腦、手機、平版，都測試看看。對讀者來說，使用起來不會卡卡就ＯＫ。
@@ -102,22 +103,23 @@
             </div>
             <!--標簽-->
             <div class="m-padded-lr">
-               <div class="ui basic teal left pointing label">方法論</div>
+               <div class="ui basic teal left pointing label" th:each="tag : ${blog.tags}" th:text="${tag.name}">方法論</div>
             </div>
             <!--贊賞-->
             <div class="ui center aligned basic segment">
                <button id="payButton" class="ui orange basic circular button">贊賞</button>
             </div>
-            <div class="ui payQR flowing popup transition hidden">
+            <div class="ui payQR popup flowing transition hidden">
                <div class="ui orange basic label">
+                  <p>asdasdasd</p>
                   <div class="ui images" style="font-size:inherit !important;">
                      <div class="image">
-                        <img src="../static/images/qrcode.jpg" alt="" class="ui image bordered rounded"
+                        <img src="../static/images/qrcode.jpg" th:src="@{/images/qrcode.jpg}" alt="" class="ui image bordered rounded"
                            style="width: 120px">
                         <div>支護寶</div>
                      </div>
                      <div class="image">
-                        <img src="../static/images/qrcode.jpg" alt="" class="ui image bordered rounded"
+                        <img src="../static/images/qrcode.jpg" th:src="@{/images/qrcode.jpg}" alt="" class="ui image bordered rounded"
                            style="width: 120px">
                         <div>微信</div>
                      </div>
@@ -130,10 +132,10 @@
             <div class="ui grid">
                <div class="eleven wide column">
                   <ui class="list">
-                     <li>作者</li>
-                     <li>發表時間</li>
-                     <li>版權説明</li>
-                     <li>公衆號轉載</li>
+                     <li>作者 <span th:text="${blog.user.nickname}">林曉慶</span><a href="#" th:href="@{/about}" target="_blank">聯係作者</a></li>
+                     <li>發表時間<span th:text="${#dates.format(blog.updateTime,'yyyy-MM-dd')}">2019-10-02 09:08</span></li>
+                     <li>版權説明:自由版權</li>
+                     <li>公衆號轉載:請在文末添加作者</li>
                   </ui>
                </div>
                <div class="five wide column">
@@ -303,14 +305,14 @@
          <p class="m-text-thin m-text-spaced m-opacity-tiny">Copyright 2018-2019 Design by Moon</p>
       </div>
    </footer>
-   <!--/*/<th:block th:replace="_fragments :: spript">/*/-->
+   <!--/*/<th:block th:replace="_fragments :: script">/*/-->
    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
    <script src="../static/lib/prism/prism.js"></script>
    <script src="../static/lib/qrcode/qrcode.min.js"></script>
    <script src="../static/lib/waypoints/jquery.waypoints.min.js"></script>
    <script src="../static/lib/tocbot/tocbot.min.js"></script>
-   <script src="//cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>
+   <script src="https//cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>
    <!--/*/</th:block>/*/-->
    <!--mobile hide-->
    <script>
