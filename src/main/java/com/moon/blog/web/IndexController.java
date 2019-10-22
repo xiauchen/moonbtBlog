@@ -54,6 +54,12 @@ public class IndexController {
         return "blog";
     }
 
+    @GetMapping("/footer/newblog")
+    public String newblogs(Model model){
+        model.addAttribute("newblogs",blogService.listRecommnedBlogTop(3));
+        return "_fragments :: newblogList";
+    }
+
     @GetMapping("error")
     public String error(){
         return "error/500";

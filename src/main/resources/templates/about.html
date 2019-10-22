@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 
-<head>
+<head th:replace="_fragments :: head(~{::title})">
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -13,7 +13,7 @@
 <body>
 
    <!--導航-->
-   <nav class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
+   <nav th:replace="_fragments :: menu(5)" class="ui inverted attached segment m-padded-tb-mini">
       <div class="ui container">
          <div class="ui inverted secondary stackable menu">
             <h2 class="ui teal header item">Blog</h2>
@@ -82,7 +82,7 @@
    <br>
 
    <!--底部footer-->
-   <footer class="ui m-padded-tb-massive inverted vertical segment">
+   <footer th:replace="_fragments :: footer" class="ui m-padded-tb-massive inverted vertical segment">
       <div class="ui center aligned container">
          <div class="ui inverted divided stackable grid">
             <div class="three wide column">
@@ -118,9 +118,10 @@
       </div>
    </footer>
 
+   <!--/*/<th:block th:replace="_fragments :: script">/*/-->
    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
-
+   <!--/*/</th:block>/*/-->
    <!--mobile hide-->
    <script>
       $('.menu.toggle').click(function () {

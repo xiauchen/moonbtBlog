@@ -772,3 +772,851 @@ org.springframework.expression.spel.SpelEvaluationException: EL1011E: Method cal
 2019-10-23 01:44:12.763  INFO 5720 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Result : blog :: commentList
 2019-10-23 01:49:44.278  INFO 5720 --- [http-nio-8080-exec-9] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.ArchiveShowController.archives', args=[{}]}
 2019-10-23 01:49:44.289  INFO 5720 --- [http-nio-8080-exec-9] com.moon.blog.aspect.LogAspect           : Result : archives
+2019-10-23 01:55:45.737  INFO 5720 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-23 01:55:45.739  INFO 5720 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 01:55:45.747  INFO 5720 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-23 01:55:45.757  INFO 5720 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-23 01:55:54.674  INFO 10288 --- [restartedMain] com.moon.blog.BlogApplication            : Starting BlogApplication on DESKTOP-KEV25DT with PID 10288 (F:\Language\java\blog-2\blog\target\classes started by MOONBT in F:\Language\java\blog-2\blog)
+2019-10-23 01:55:54.677 DEBUG 10288 --- [restartedMain] com.moon.blog.BlogApplication            : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-10-23 01:55:54.677  INFO 10288 --- [restartedMain] com.moon.blog.BlogApplication            : The following profiles are active: dev
+2019-10-23 01:55:54.730  INFO 10288 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\MOONBT\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2019-10-23 01:55:54.731  INFO 10288 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-23 01:55:54.731  INFO 10288 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-23 01:55:55.443  INFO 10288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-23 01:55:55.521  INFO 10288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70ms. Found 5 repository interfaces.
+2019-10-23 01:55:55.837  INFO 10288 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 01:55:56.217  INFO 10288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-23 01:55:56.227  INFO 10288 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-23 01:55:56.227  INFO 10288 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-23 01:55:56.358  INFO 10288 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-23 01:55:56.358  INFO 10288 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1627 ms
+2019-10-23 01:55:56.534  INFO 10288 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-10-23 01:55:56.591  INFO 10288 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2019-10-23 01:55:56.699  INFO 10288 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-10-23 01:55:56.779  INFO 10288 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-23 01:55:57.014  INFO 10288 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-23 01:55:57.026  INFO 10288 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-23 01:55:58.117  INFO 10288 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-10-23 01:55:58.128  INFO 10288 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 01:55:58.205  INFO 10288 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-23 01:55:59.175  WARN 10288 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-23 01:55:59.383  INFO 10288 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-23 01:55:59.491  INFO 10288 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-23 01:55:59.811  INFO 10288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-23 01:55:59.815  INFO 10288 --- [restartedMain] com.moon.blog.BlogApplication            : Started BlogApplication in 5.742 seconds (JVM running for 11.51)
+2019-10-23 01:56:01.663  INFO 10288 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-23 01:56:01.664  INFO 10288 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-23 01:56:01.676  INFO 10288 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2019-10-23 01:56:01.707  INFO 10288 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 01:56:01.792  WARN 10288 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-23 01:56:01.806  WARN 10288 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-23 01:56:01.813  INFO 10288 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 01:56:03.782  INFO 10288 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-10-23 01:56:03.795  INFO 10288 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Result : types
+2019-10-23 01:56:04.671  INFO 10288 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-10-23 01:56:04.694  INFO 10288 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Result : tags
+2019-10-23 01:56:05.288  INFO 10288 --- [http-nio-8080-exec-9] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/archives/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.ArchiveShowController.archives', args=[{}]}
+2019-10-23 01:56:05.306  INFO 10288 --- [http-nio-8080-exec-9] com.moon.blog.aspect.LogAspect           : Result : archives
+2019-10-23 01:56:06.064  INFO 10288 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.AboutShowController.about', args=[]}
+2019-10-23 01:56:06.066  INFO 10288 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Result : about
+2019-10-23 01:56:06.116  INFO 10288 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/error', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.error', args=[]}
+2019-10-23 01:56:06.116  INFO 10288 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Result : error/500
+2019-10-23 02:08:13.605  INFO 10288 --- [Thread-14] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-23 02:08:13.606  INFO 10288 --- [Thread-14] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 02:08:13.610  INFO 10288 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-23 02:08:13.613  INFO 10288 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-23 02:08:13.950  INFO 10288 --- [restartedMain] com.moon.blog.BlogApplication            : Starting BlogApplication on DESKTOP-KEV25DT with PID 10288 (F:\Language\java\blog-2\blog\target\classes started by MOONBT in F:\Language\java\blog-2\blog)
+2019-10-23 02:08:13.951 DEBUG 10288 --- [restartedMain] com.moon.blog.BlogApplication            : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-10-23 02:08:13.951  INFO 10288 --- [restartedMain] com.moon.blog.BlogApplication            : The following profiles are active: dev
+2019-10-23 02:08:14.172  INFO 10288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-23 02:08:14.198  INFO 10288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26ms. Found 5 repository interfaces.
+2019-10-23 02:08:14.271  INFO 10288 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 02:08:14.349  WARN 10288 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2019-10-23 02:08:14.393  INFO 10288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-23 02:08:14.394  INFO 10288 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-23 02:08:14.394  INFO 10288 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-23 02:08:14.408  INFO 10288 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-23 02:08:14.408  INFO 10288 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 454 ms
+2019-10-23 02:08:14.477  INFO 10288 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-10-23 02:08:14.480  INFO 10288 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2019-10-23 02:08:14.489  INFO 10288 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2019-10-23 02:08:14.490  INFO 10288 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-23 02:08:14.891  INFO 10288 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-10-23 02:08:14.892  INFO 10288 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 02:08:14.924  INFO 10288 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-23 02:08:15.316  WARN 10288 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-23 02:08:15.450  INFO 10288 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-23 02:08:15.496  INFO 10288 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-23 02:08:15.792  INFO 10288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-23 02:08:15.793  INFO 10288 --- [restartedMain] com.moon.blog.BlogApplication            : Started BlogApplication in 1.879 seconds (JVM running for 747.488)
+2019-10-23 02:08:15.795  INFO 10288 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-23 02:08:27.463  INFO 10288 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-23 02:08:27.464  INFO 10288 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-23 02:08:27.472  INFO 10288 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-10-23 02:08:27.476  INFO 10288 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.AboutShowController.about', args=[]}
+2019-10-23 02:08:27.480  INFO 10288 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Result : about
+2019-10-23 02:08:27.546  INFO 10288 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/error', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.error', args=[]}
+2019-10-23 02:08:27.550  INFO 10288 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Result : error/500
+2019-10-23 02:08:27.774  INFO 10288 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:08:27.794  INFO 10288 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:08:30.130  INFO 10288 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/blog/17', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.blog', args=[17, {}]}
+2019-10-23 02:08:30.184  INFO 10288 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Result : blog
+2019-10-23 02:08:30.412  INFO 10288 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:08:30.417  INFO 10288 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:08:30.544  INFO 10288 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/comments/17', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.CommentController.commentList', args=[17, {}]}
+2019-10-23 02:08:30.567  INFO 10288 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Result : blog :: commentList
+2019-10-23 02:08:34.403  INFO 10288 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/blog/1', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.blog', args=[1, {}]}
+2019-10-23 02:08:34.410  INFO 10288 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Result : blog
+2019-10-23 02:08:34.634  INFO 10288 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:08:34.638  INFO 10288 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:08:34.721  INFO 10288 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/comments/1', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.CommentController.commentList', args=[1, {}]}
+2019-10-23 02:08:34.723  INFO 10288 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Result : blog :: commentList
+2019-10-23 02:08:38.650  INFO 10288 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-10-23 02:08:38.656  WARN 10288 --- [http-nio-8080-exec-5] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-23 02:08:38.665  INFO 10288 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Result : types
+2019-10-23 02:08:38.900  INFO 10288 --- [http-nio-8080-exec-9] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:08:38.904  INFO 10288 --- [http-nio-8080-exec-9] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:12:13.079  INFO 10288 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-23 02:12:13.080  INFO 10288 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 02:12:13.081  INFO 10288 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2019-10-23 02:12:13.092  INFO 10288 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2019-10-23 02:12:21.244  INFO 27584 --- [restartedMain] com.moon.blog.BlogApplication            : Starting BlogApplication on DESKTOP-KEV25DT with PID 27584 (F:\Language\java\blog-2\blog\target\classes started by MOONBT in F:\Language\java\blog-2\blog)
+2019-10-23 02:12:21.247 DEBUG 27584 --- [restartedMain] com.moon.blog.BlogApplication            : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-10-23 02:12:21.247  INFO 27584 --- [restartedMain] com.moon.blog.BlogApplication            : The following profiles are active: dev
+2019-10-23 02:12:21.303  INFO 27584 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\MOONBT\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2019-10-23 02:12:21.303  INFO 27584 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-23 02:12:21.303  INFO 27584 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-23 02:12:21.919  INFO 27584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-23 02:12:21.998  INFO 27584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69ms. Found 5 repository interfaces.
+2019-10-23 02:12:22.302  INFO 27584 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 02:12:22.690  INFO 27584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-23 02:12:22.698  INFO 27584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-23 02:12:22.699  INFO 27584 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-23 02:12:22.832  INFO 27584 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-23 02:12:22.833  INFO 27584 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1529 ms
+2019-10-23 02:12:22.998  INFO 27584 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-10-23 02:12:23.052  INFO 27584 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2019-10-23 02:12:23.160  INFO 27584 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-10-23 02:12:23.245  INFO 27584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-23 02:12:23.476  INFO 27584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-23 02:12:23.489  INFO 27584 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-23 02:12:24.570  INFO 27584 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-10-23 02:12:24.578  INFO 27584 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 02:12:24.635  INFO 27584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-23 02:12:25.535  WARN 27584 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-23 02:12:25.730  INFO 27584 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-23 02:12:25.837  INFO 27584 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-23 02:12:26.156  INFO 27584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-23 02:12:26.159  INFO 27584 --- [restartedMain] com.moon.blog.BlogApplication            : Started BlogApplication in 5.553 seconds (JVM running for 11.31)
+2019-10-23 02:12:29.860  INFO 27584 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-23 02:12:29.860  INFO 27584 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-23 02:12:29.874  INFO 27584 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2019-10-23 02:12:29.910  INFO 27584 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:12:30.000  WARN 27584 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-23 02:12:30.013  WARN 27584 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-23 02:12:30.020  INFO 27584 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:12:30.784  INFO 27584 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:12:30.790  INFO 27584 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:12:46.230  INFO 27584 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 1, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:12:46.243  INFO 27584 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:12:46.522  INFO 27584 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:12:46.528  INFO 27584 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:12:47.687  INFO 27584 --- [http-nio-8080-exec-9] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 2, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:12:47.697  INFO 27584 --- [http-nio-8080-exec-9] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:12:47.966  INFO 27584 --- [http-nio-8080-exec-8] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:12:47.972  INFO 27584 --- [http-nio-8080-exec-8] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:12:48.970  INFO 27584 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 3, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:12:48.978  INFO 27584 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:12:49.239  INFO 27584 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:12:49.244  INFO 27584 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:12:51.856  INFO 27584 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 2, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:12:51.865  INFO 27584 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:12:52.103  INFO 27584 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:12:52.107  INFO 27584 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:12:52.998  INFO 27584 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 1, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:12:53.009  INFO 27584 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:12:53.251  INFO 27584 --- [http-nio-8080-exec-8] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:12:53.256  INFO 27584 --- [http-nio-8080-exec-8] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:12:53.733  INFO 27584 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:12:53.743  INFO 27584 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:12:53.967  INFO 27584 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:12:53.970  INFO 27584 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:13:03.628  INFO 27584 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:13:03.640  INFO 27584 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:13:03.899  INFO 27584 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:13:03.903  INFO 27584 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:21:41.609  INFO 27584 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-23 02:21:41.611  INFO 27584 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 02:21:41.618  INFO 27584 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-23 02:21:41.632  INFO 27584 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-23 02:21:53.450  INFO 17736 --- [restartedMain] com.moon.blog.BlogApplication            : Starting BlogApplication on DESKTOP-KEV25DT with PID 17736 (F:\Language\java\blog-2\blog\target\classes started by MOONBT in F:\Language\java\blog-2\blog)
+2019-10-23 02:21:53.454 DEBUG 17736 --- [restartedMain] com.moon.blog.BlogApplication            : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-10-23 02:21:53.454  INFO 17736 --- [restartedMain] com.moon.blog.BlogApplication            : The following profiles are active: dev
+2019-10-23 02:21:53.523  INFO 17736 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\MOONBT\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2019-10-23 02:21:53.523  INFO 17736 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-23 02:21:53.523  INFO 17736 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-23 02:21:54.170  INFO 17736 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-23 02:21:54.258  INFO 17736 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77ms. Found 5 repository interfaces.
+2019-10-23 02:21:54.562  INFO 17736 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 02:21:54.968  INFO 17736 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-23 02:21:54.976  INFO 17736 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-23 02:21:54.977  INFO 17736 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-23 02:21:55.105  INFO 17736 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-23 02:21:55.106  INFO 17736 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1583 ms
+2019-10-23 02:21:55.299  INFO 17736 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-10-23 02:21:55.361  INFO 17736 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2019-10-23 02:21:55.482  INFO 17736 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-10-23 02:21:55.634  INFO 17736 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-23 02:21:55.891  INFO 17736 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-23 02:21:55.904  INFO 17736 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-23 02:21:57.068  INFO 17736 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-10-23 02:21:57.074  INFO 17736 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 02:21:57.137  INFO 17736 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-23 02:21:58.228  WARN 17736 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-23 02:21:58.444  INFO 17736 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-23 02:21:58.561  INFO 17736 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-23 02:21:58.896  INFO 17736 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-23 02:21:58.899  INFO 17736 --- [restartedMain] com.moon.blog.BlogApplication            : Started BlogApplication in 6.249 seconds (JVM running for 11.999)
+2019-10-23 02:23:57.502  INFO 17736 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-23 02:23:57.503  INFO 17736 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 02:23:57.509  INFO 17736 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-23 02:23:57.513  INFO 17736 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-23 02:24:05.506  INFO 22380 --- [restartedMain] com.moon.blog.BlogApplication            : Starting BlogApplication on DESKTOP-KEV25DT with PID 22380 (F:\Language\java\blog-2\blog\target\classes started by MOONBT in F:\Language\java\blog-2\blog)
+2019-10-23 02:24:05.510 DEBUG 22380 --- [restartedMain] com.moon.blog.BlogApplication            : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-10-23 02:24:05.510  INFO 22380 --- [restartedMain] com.moon.blog.BlogApplication            : The following profiles are active: dev
+2019-10-23 02:24:05.561  INFO 22380 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\MOONBT\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2019-10-23 02:24:05.561  INFO 22380 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-23 02:24:05.561  INFO 22380 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-23 02:24:06.131  INFO 22380 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-23 02:24:06.211  INFO 22380 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73ms. Found 5 repository interfaces.
+2019-10-23 02:24:06.506  INFO 22380 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 02:24:06.892  INFO 22380 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-23 02:24:06.900  INFO 22380 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-23 02:24:06.900  INFO 22380 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-23 02:24:07.017  INFO 22380 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-23 02:24:07.017  INFO 22380 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1456 ms
+2019-10-23 02:24:07.176  INFO 22380 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-10-23 02:24:07.228  INFO 22380 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2019-10-23 02:24:07.335  INFO 22380 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-10-23 02:24:07.414  INFO 22380 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-23 02:24:07.639  INFO 22380 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-23 02:24:07.651  INFO 22380 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-23 02:24:08.711  INFO 22380 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-10-23 02:24:08.720  INFO 22380 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 02:24:08.775  INFO 22380 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-23 02:24:09.718  WARN 22380 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-23 02:24:09.934  INFO 22380 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-23 02:24:10.043  INFO 22380 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-23 02:24:10.384  INFO 22380 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-23 02:24:10.387  INFO 22380 --- [restartedMain] com.moon.blog.BlogApplication            : Started BlogApplication in 5.533 seconds (JVM running for 11.269)
+2019-10-23 02:24:24.937  INFO 22380 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-23 02:24:24.938  INFO 22380 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 02:24:24.946  INFO 22380 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-23 02:24:24.949  INFO 22380 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-23 02:24:32.156  INFO 18172 --- [restartedMain] com.moon.blog.BlogApplication            : Starting BlogApplication on DESKTOP-KEV25DT with PID 18172 (F:\Language\java\blog-2\blog\target\classes started by MOONBT in F:\Language\java\blog-2\blog)
+2019-10-23 02:24:32.158 DEBUG 18172 --- [restartedMain] com.moon.blog.BlogApplication            : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-10-23 02:24:32.159  INFO 18172 --- [restartedMain] com.moon.blog.BlogApplication            : The following profiles are active: dev
+2019-10-23 02:24:32.210  INFO 18172 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\MOONBT\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2019-10-23 02:24:32.211  INFO 18172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-23 02:24:32.211  INFO 18172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-23 02:24:32.806  INFO 18172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-23 02:24:32.887  INFO 18172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72ms. Found 5 repository interfaces.
+2019-10-23 02:24:33.177  INFO 18172 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 02:24:33.558  INFO 18172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-23 02:24:33.567  INFO 18172 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-23 02:24:33.567  INFO 18172 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-23 02:24:33.686  INFO 18172 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-23 02:24:33.686  INFO 18172 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1475 ms
+2019-10-23 02:24:33.842  INFO 18172 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-10-23 02:24:33.896  INFO 18172 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2019-10-23 02:24:34.003  INFO 18172 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-10-23 02:24:34.081  INFO 18172 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-23 02:24:34.304  INFO 18172 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-23 02:24:34.316  INFO 18172 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-23 02:24:35.329  INFO 18172 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-10-23 02:24:35.335  INFO 18172 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 02:24:35.391  INFO 18172 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-23 02:24:36.366  WARN 18172 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-23 02:24:36.711  INFO 18172 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-23 02:24:36.818  INFO 18172 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-23 02:24:37.147  INFO 18172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-23 02:24:37.149  INFO 18172 --- [restartedMain] com.moon.blog.BlogApplication            : Started BlogApplication in 5.56 seconds (JVM running for 11.419)
+2019-10-23 02:24:37.680  INFO 18172 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-23 02:24:37.680  INFO 18172 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-23 02:24:37.693  INFO 18172 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2019-10-23 02:24:37.727  INFO 18172 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:24:37.814  WARN 18172 --- [http-nio-8080-exec-2] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-23 02:24:37.829  WARN 18172 --- [http-nio-8080-exec-2] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-23 02:24:37.836  INFO 18172 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:24:38.504  INFO 18172 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:24:38.510  INFO 18172 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:24:42.952  INFO 18172 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-10-23 02:24:42.966  INFO 18172 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Result : types
+2019-10-23 02:24:43.210  INFO 18172 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:24:43.214  INFO 18172 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:24:43.734  INFO 18172 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:24:43.745  INFO 18172 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:24:43.980  INFO 18172 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:24:43.984  INFO 18172 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:24:44.528  INFO 18172 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-10-23 02:24:44.534  INFO 18172 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Result : types
+2019-10-23 02:24:44.758  INFO 18172 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:24:44.762  INFO 18172 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:24:45.669  INFO 18172 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:24:45.679  INFO 18172 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:24:45.907  INFO 18172 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:24:45.911  INFO 18172 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:27:50.911  INFO 18172 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-23 02:27:50.912  INFO 18172 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 02:27:50.916  INFO 18172 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-23 02:27:50.923  INFO 18172 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-23 02:27:58.899  INFO 22216 --- [restartedMain] com.moon.blog.BlogApplication            : Starting BlogApplication on DESKTOP-KEV25DT with PID 22216 (F:\Language\java\blog-2\blog\target\classes started by MOONBT in F:\Language\java\blog-2\blog)
+2019-10-23 02:27:58.901 DEBUG 22216 --- [restartedMain] com.moon.blog.BlogApplication            : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-10-23 02:27:58.901  INFO 22216 --- [restartedMain] com.moon.blog.BlogApplication            : The following profiles are active: dev
+2019-10-23 02:27:58.948  INFO 22216 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\MOONBT\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2019-10-23 02:27:58.949  INFO 22216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-23 02:27:58.949  INFO 22216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-23 02:27:59.583  INFO 22216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-23 02:27:59.903  INFO 22216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 313ms. Found 5 repository interfaces.
+2019-10-23 02:28:00.231  INFO 22216 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 02:28:00.640  INFO 22216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-23 02:28:00.648  INFO 22216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-23 02:28:00.649  INFO 22216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-23 02:28:00.776  INFO 22216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-23 02:28:00.776  INFO 22216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1827 ms
+2019-10-23 02:28:00.930  INFO 22216 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-10-23 02:28:00.984  INFO 22216 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2019-10-23 02:28:01.104  INFO 22216 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-10-23 02:28:01.199  INFO 22216 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-23 02:28:01.417  INFO 22216 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-23 02:28:01.429  INFO 22216 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-23 02:28:02.472  INFO 22216 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-10-23 02:28:02.478  INFO 22216 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 02:28:02.532  INFO 22216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-23 02:28:03.426  WARN 22216 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-23 02:28:03.625  INFO 22216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-23 02:28:03.729  INFO 22216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-23 02:28:04.056  INFO 22216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-23 02:28:04.059  INFO 22216 --- [restartedMain] com.moon.blog.BlogApplication            : Started BlogApplication in 5.77 seconds (JVM running for 11.482)
+2019-10-23 02:28:09.573  INFO 22216 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-23 02:28:09.574  INFO 22216 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-23 02:28:09.585  INFO 22216 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-10-23 02:28:09.614  INFO 22216 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:28:09.696  WARN 22216 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-23 02:28:09.709  WARN 22216 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-23 02:28:09.715  INFO 22216 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:28:10.380  INFO 22216 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:28:10.387  INFO 22216 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:28:11.874  INFO 22216 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:28:11.886  INFO 22216 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:28:12.116  INFO 22216 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:28:12.122  INFO 22216 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:29:33.519  INFO 22216 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:29:33.531  INFO 22216 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:29:33.816  INFO 22216 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:29:33.821  INFO 22216 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:31:10.670  INFO 22216 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-23 02:31:10.672  INFO 22216 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 02:31:10.678  INFO 22216 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-23 02:31:10.682  INFO 22216 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-23 02:31:18.655  INFO 6740 --- [restartedMain] com.moon.blog.BlogApplication            : Starting BlogApplication on DESKTOP-KEV25DT with PID 6740 (F:\Language\java\blog-2\blog\target\classes started by MOONBT in F:\Language\java\blog-2\blog)
+2019-10-23 02:31:18.658 DEBUG 6740 --- [restartedMain] com.moon.blog.BlogApplication            : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-10-23 02:31:18.658  INFO 6740 --- [restartedMain] com.moon.blog.BlogApplication            : The following profiles are active: dev
+2019-10-23 02:31:18.702  INFO 6740 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\MOONBT\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2019-10-23 02:31:18.702  INFO 6740 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-23 02:31:18.702  INFO 6740 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-23 02:31:19.263  INFO 6740 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-23 02:31:19.337  INFO 6740 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67ms. Found 5 repository interfaces.
+2019-10-23 02:31:19.668  INFO 6740 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 02:31:20.086  INFO 6740 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-23 02:31:20.095  INFO 6740 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-23 02:31:20.096  INFO 6740 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-23 02:31:20.223  INFO 6740 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-23 02:31:20.223  INFO 6740 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1521 ms
+2019-10-23 02:31:20.389  INFO 6740 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-10-23 02:31:20.442  INFO 6740 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2019-10-23 02:31:20.552  INFO 6740 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-10-23 02:31:20.651  INFO 6740 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-23 02:31:20.904  INFO 6740 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-23 02:31:20.919  INFO 6740 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-23 02:31:22.106  INFO 6740 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-10-23 02:31:22.116  INFO 6740 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 02:31:22.175  INFO 6740 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-23 02:31:23.105  WARN 6740 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-23 02:31:23.303  INFO 6740 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-23 02:31:23.409  INFO 6740 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-23 02:31:23.726  INFO 6740 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-23 02:31:23.729  INFO 6740 --- [restartedMain] com.moon.blog.BlogApplication            : Started BlogApplication in 5.705 seconds (JVM running for 11.545)
+2019-10-23 02:31:25.939  INFO 6740 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-23 02:31:25.939  INFO 6740 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-23 02:31:25.951  INFO 6740 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-10-23 02:31:25.982  INFO 6740 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:31:26.066  WARN 6740 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-23 02:31:26.079  WARN 6740 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-23 02:31:26.085  INFO 6740 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:31:26.827  INFO 6740 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:31:26.833  INFO 6740 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:31:27.923  INFO 6740 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:31:27.935  INFO 6740 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:31:28.225  INFO 6740 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:31:28.232  INFO 6740 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:31:28.719  INFO 6740 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:31:28.730  INFO 6740 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:31:29.011  INFO 6740 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:31:29.015  INFO 6740 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:33:09.548  INFO 6740 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-23 02:33:09.549  INFO 6740 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 02:33:09.559  INFO 6740 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-23 02:33:09.564  INFO 6740 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-23 02:33:17.514  INFO 31264 --- [restartedMain] com.moon.blog.BlogApplication            : Starting BlogApplication on DESKTOP-KEV25DT with PID 31264 (F:\Language\java\blog-2\blog\target\classes started by MOONBT in F:\Language\java\blog-2\blog)
+2019-10-23 02:33:17.516 DEBUG 31264 --- [restartedMain] com.moon.blog.BlogApplication            : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-10-23 02:33:17.517  INFO 31264 --- [restartedMain] com.moon.blog.BlogApplication            : The following profiles are active: dev
+2019-10-23 02:33:17.561  INFO 31264 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\MOONBT\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2019-10-23 02:33:17.561  INFO 31264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-23 02:33:17.561  INFO 31264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-23 02:33:18.097  INFO 31264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-23 02:33:18.170  INFO 31264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66ms. Found 5 repository interfaces.
+2019-10-23 02:33:18.447  INFO 31264 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 02:33:18.817  INFO 31264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-23 02:33:18.825  INFO 31264 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-23 02:33:18.825  INFO 31264 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-23 02:33:18.943  INFO 31264 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-23 02:33:18.943  INFO 31264 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1382 ms
+2019-10-23 02:33:19.102  INFO 31264 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-10-23 02:33:19.153  INFO 31264 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2019-10-23 02:33:19.251  INFO 31264 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-10-23 02:33:19.325  INFO 31264 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-23 02:33:19.540  INFO 31264 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-23 02:33:19.551  INFO 31264 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-23 02:33:20.559  INFO 31264 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-10-23 02:33:20.564  INFO 31264 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 02:33:20.640  INFO 31264 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-23 02:33:21.682  WARN 31264 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-23 02:33:21.874  INFO 31264 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-23 02:33:21.974  INFO 31264 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-23 02:33:22.296  INFO 31264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-23 02:33:22.298  INFO 31264 --- [restartedMain] com.moon.blog.BlogApplication            : Started BlogApplication in 5.377 seconds (JVM running for 11.074)
+2019-10-23 02:33:42.874  INFO 31264 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-23 02:33:42.875  INFO 31264 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-23 02:33:42.886  INFO 31264 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-10-23 02:33:42.915  INFO 31264 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:33:42.999  WARN 31264 --- [http-nio-8080-exec-2] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-23 02:33:43.012  WARN 31264 --- [http-nio-8080-exec-2] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-23 02:33:43.018  INFO 31264 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:33:43.720  INFO 31264 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:33:43.726  INFO 31264 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:34:20.685  INFO 31264 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-23 02:34:20.687  INFO 31264 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 02:34:20.693  INFO 31264 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-23 02:34:20.697  INFO 31264 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-23 02:34:28.622  INFO 25888 --- [restartedMain] com.moon.blog.BlogApplication            : Starting BlogApplication on DESKTOP-KEV25DT with PID 25888 (F:\Language\java\blog-2\blog\target\classes started by MOONBT in F:\Language\java\blog-2\blog)
+2019-10-23 02:34:28.625 DEBUG 25888 --- [restartedMain] com.moon.blog.BlogApplication            : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-10-23 02:34:28.625  INFO 25888 --- [restartedMain] com.moon.blog.BlogApplication            : The following profiles are active: dev
+2019-10-23 02:34:28.672  INFO 25888 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\MOONBT\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2019-10-23 02:34:28.672  INFO 25888 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-23 02:34:28.672  INFO 25888 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-23 02:34:29.196  INFO 25888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-23 02:34:29.269  INFO 25888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65ms. Found 5 repository interfaces.
+2019-10-23 02:34:29.542  INFO 25888 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 02:34:29.907  INFO 25888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-23 02:34:29.914  INFO 25888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-23 02:34:29.914  INFO 25888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-23 02:34:30.027  INFO 25888 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-23 02:34:30.027  INFO 25888 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1355 ms
+2019-10-23 02:34:30.182  INFO 25888 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-10-23 02:34:30.234  INFO 25888 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2019-10-23 02:34:30.340  INFO 25888 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-10-23 02:34:30.415  INFO 25888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-23 02:34:30.646  INFO 25888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-23 02:34:30.658  INFO 25888 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-23 02:34:31.680  INFO 25888 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-10-23 02:34:31.686  INFO 25888 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 02:34:31.743  INFO 25888 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-23 02:34:32.684  WARN 25888 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-23 02:34:32.884  INFO 25888 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-23 02:34:32.980  INFO 25888 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-23 02:34:33.293  INFO 25888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-23 02:34:33.296  INFO 25888 --- [restartedMain] com.moon.blog.BlogApplication            : Started BlogApplication in 5.215 seconds (JVM running for 11.08)
+2019-10-23 02:34:36.210  INFO 25888 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-23 02:34:36.211  INFO 25888 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-23 02:34:36.222  INFO 25888 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-10-23 02:34:36.252  INFO 25888 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:34:36.336  WARN 25888 --- [http-nio-8080-exec-2] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-23 02:34:36.348  WARN 25888 --- [http-nio-8080-exec-2] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-23 02:34:36.354  INFO 25888 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:34:37.062  INFO 25888 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:34:37.068  INFO 25888 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:37:26.936  INFO 25888 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-23 02:37:26.942  INFO 25888 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 02:37:26.947  INFO 25888 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-23 02:37:26.952  INFO 25888 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-23 02:37:34.861  INFO 9384 --- [restartedMain] com.moon.blog.BlogApplication            : Starting BlogApplication on DESKTOP-KEV25DT with PID 9384 (F:\Language\java\blog-2\blog\target\classes started by MOONBT in F:\Language\java\blog-2\blog)
+2019-10-23 02:37:34.864 DEBUG 9384 --- [restartedMain] com.moon.blog.BlogApplication            : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-10-23 02:37:34.864  INFO 9384 --- [restartedMain] com.moon.blog.BlogApplication            : The following profiles are active: dev
+2019-10-23 02:37:34.910  INFO 9384 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\MOONBT\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2019-10-23 02:37:34.911  INFO 9384 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-23 02:37:34.911  INFO 9384 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-23 02:37:35.542  INFO 9384 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-23 02:37:35.615  INFO 9384 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66ms. Found 5 repository interfaces.
+2019-10-23 02:37:35.896  INFO 9384 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 02:37:36.265  INFO 9384 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-23 02:37:36.273  INFO 9384 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-23 02:37:36.273  INFO 9384 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-23 02:37:36.388  INFO 9384 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-23 02:37:36.389  INFO 9384 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1478 ms
+2019-10-23 02:37:36.543  INFO 9384 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-10-23 02:37:36.595  INFO 9384 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2019-10-23 02:37:36.698  INFO 9384 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-10-23 02:37:36.779  INFO 9384 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-23 02:37:37.003  INFO 9384 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-23 02:37:37.014  INFO 9384 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-23 02:37:38.088  INFO 9384 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-10-23 02:37:38.094  INFO 9384 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 02:37:38.152  INFO 9384 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-23 02:37:39.043  WARN 9384 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-23 02:37:39.245  INFO 9384 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-23 02:37:39.349  INFO 9384 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-23 02:37:39.671  INFO 9384 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-23 02:37:39.673  INFO 9384 --- [restartedMain] com.moon.blog.BlogApplication            : Started BlogApplication in 5.382 seconds (JVM running for 11.126)
+2019-10-23 02:37:39.826  INFO 9384 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-23 02:37:39.826  INFO 9384 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-23 02:37:39.837  INFO 9384 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-10-23 02:37:39.872  INFO 9384 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:37:39.971  WARN 9384 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-23 02:37:39.985  WARN 9384 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-23 02:37:39.992  INFO 9384 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:37:40.718  INFO 9384 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:37:40.724  INFO 9384 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:40:23.757  INFO 9384 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:40:23.768  INFO 9384 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:40:24.059  INFO 9384 --- [http-nio-8080-exec-9] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:40:24.067  INFO 9384 --- [http-nio-8080-exec-9] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:40:24.715  INFO 9384 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/types/2', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 2, {}]}
+2019-10-23 02:40:24.729  INFO 9384 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Result : types
+2019-10-23 02:40:24.971  INFO 9384 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:40:24.975  INFO 9384 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:40:29.125  INFO 9384 --- [http-nio-8080-exec-9] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/types/8', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 8, {}]}
+2019-10-23 02:40:29.131  INFO 9384 --- [http-nio-8080-exec-9] com.moon.blog.aspect.LogAspect           : Result : types
+2019-10-23 02:40:29.373  INFO 9384 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:40:29.378  INFO 9384 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:42:33.760  INFO 9384 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/types/8', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 8, {}]}
+2019-10-23 02:42:33.766  INFO 9384 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Result : types
+2019-10-23 02:42:34.034  INFO 9384 --- [http-nio-8080-exec-9] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:42:34.038  INFO 9384 --- [http-nio-8080-exec-9] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:42:36.631  INFO 9384 --- [http-nio-8080-exec-8] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:42:36.648  INFO 9384 --- [http-nio-8080-exec-8] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:42:36.879  INFO 9384 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:42:36.883  INFO 9384 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:42:37.692  INFO 9384 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-10-23 02:42:37.699  INFO 9384 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Result : types
+2019-10-23 02:42:38.030  INFO 9384 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:42:38.034  INFO 9384 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:42:44.092  INFO 9384 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/blog/17', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.blog', args=[17, {}]}
+2019-10-23 02:42:44.150  INFO 9384 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Result : blog
+2019-10-23 02:42:44.385  INFO 9384 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:42:44.390  INFO 9384 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:42:44.530  INFO 9384 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/comments/17', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.CommentController.commentList', args=[17, {}]}
+2019-10-23 02:42:44.549  INFO 9384 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Result : blog :: commentList
+2019-10-23 02:48:02.213  INFO 9384 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-23 02:48:02.215  INFO 9384 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 02:48:02.220  INFO 9384 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-23 02:48:02.224  INFO 9384 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-23 02:48:10.385  INFO 3600 --- [restartedMain] com.moon.blog.BlogApplication            : Starting BlogApplication on DESKTOP-KEV25DT with PID 3600 (F:\Language\java\blog-2\blog\target\classes started by MOONBT in F:\Language\java\blog-2\blog)
+2019-10-23 02:48:10.387 DEBUG 3600 --- [restartedMain] com.moon.blog.BlogApplication            : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-10-23 02:48:10.388  INFO 3600 --- [restartedMain] com.moon.blog.BlogApplication            : The following profiles are active: dev
+2019-10-23 02:48:10.441  INFO 3600 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\MOONBT\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2019-10-23 02:48:10.441  INFO 3600 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-23 02:48:10.441  INFO 3600 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-23 02:48:11.011  INFO 3600 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-23 02:48:11.083  INFO 3600 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65ms. Found 5 repository interfaces.
+2019-10-23 02:48:11.361  INFO 3600 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 02:48:11.729  INFO 3600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-23 02:48:11.737  INFO 3600 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-23 02:48:11.737  INFO 3600 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-23 02:48:11.853  INFO 3600 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-23 02:48:11.854  INFO 3600 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1413 ms
+2019-10-23 02:48:12.007  INFO 3600 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-10-23 02:48:12.060  INFO 3600 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2019-10-23 02:48:12.163  INFO 3600 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-10-23 02:48:12.241  INFO 3600 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-23 02:48:12.461  INFO 3600 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-23 02:48:12.472  INFO 3600 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-23 02:48:13.451  INFO 3600 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-10-23 02:48:13.457  INFO 3600 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 02:48:13.512  INFO 3600 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-23 02:48:14.364  WARN 3600 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-23 02:48:14.554  INFO 3600 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-23 02:48:14.647  INFO 3600 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-23 02:48:14.955  INFO 3600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-23 02:48:14.958  INFO 3600 --- [restartedMain] com.moon.blog.BlogApplication            : Started BlogApplication in 5.087 seconds (JVM running for 10.815)
+2019-10-23 02:48:16.457  INFO 3600 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-23 02:48:16.457  INFO 3600 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-23 02:48:16.469  INFO 3600 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2019-10-23 02:48:16.500  INFO 3600 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:48:16.583  WARN 3600 --- [http-nio-8080-exec-2] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-23 02:48:16.596  WARN 3600 --- [http-nio-8080-exec-2] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-23 02:48:16.603  INFO 3600 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:48:17.243  INFO 3600 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:48:17.249  INFO 3600 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:48:19.843  INFO 3600 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/blog/17', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.blog', args=[17, {}]}
+2019-10-23 02:48:19.903  INFO 3600 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Result : blog
+2019-10-23 02:48:20.159  INFO 3600 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:48:20.164  INFO 3600 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:48:20.296  INFO 3600 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/comments/17', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.CommentController.commentList', args=[17, {}]}
+2019-10-23 02:48:20.318  INFO 3600 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Result : blog :: commentList
+2019-10-23 02:48:29.350  INFO 3600 --- [http-nio-8080-exec-9] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-10-23 02:48:29.365  INFO 3600 --- [http-nio-8080-exec-9] com.moon.blog.aspect.LogAspect           : Result : types
+2019-10-23 02:48:29.628  INFO 3600 --- [http-nio-8080-exec-8] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:48:29.633  INFO 3600 --- [http-nio-8080-exec-8] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:48:31.222  INFO 3600 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/blog/23', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.blog', args=[23, {}]}
+2019-10-23 02:48:31.229  INFO 3600 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Result : blog
+2019-10-23 02:48:31.451  INFO 3600 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:48:31.456  INFO 3600 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:48:31.545  INFO 3600 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/comments/23', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.CommentController.commentList', args=[23, {}]}
+2019-10-23 02:48:31.553  INFO 3600 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Result : blog :: commentList
+2019-10-23 02:48:36.235  INFO 3600 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/blog/1', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.blog', args=[1, {}]}
+2019-10-23 02:48:36.242  INFO 3600 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Result : blog
+2019-10-23 02:48:36.483  INFO 3600 --- [http-nio-8080-exec-8] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:48:36.487  INFO 3600 --- [http-nio-8080-exec-8] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:48:36.585  INFO 3600 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/comments/1', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.CommentController.commentList', args=[1, {}]}
+2019-10-23 02:48:36.587  INFO 3600 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Result : blog :: commentList
+2019-10-23 02:48:39.818  INFO 3600 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/blog/2', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.blog', args=[2, {}]}
+2019-10-23 02:48:39.832  INFO 3600 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Result : blog
+2019-10-23 02:48:40.094  INFO 3600 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:48:40.098  INFO 3600 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:48:40.148  INFO 3600 --- [http-nio-8080-exec-9] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/comments/2', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.CommentController.commentList', args=[2, {}]}
+2019-10-23 02:48:40.150  INFO 3600 --- [http-nio-8080-exec-9] com.moon.blog.aspect.LogAspect           : Result : blog :: commentList
+2019-10-23 02:48:43.015  INFO 3600 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/blog/21', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.blog', args=[21, {}]}
+2019-10-23 02:48:43.023  INFO 3600 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Result : blog
+2019-10-23 02:48:43.262  INFO 3600 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:48:43.266  INFO 3600 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:48:51.140  INFO 3600 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/blog/3', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.blog', args=[3, {}]}
+2019-10-23 02:48:51.147  INFO 3600 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Result : blog
+2019-10-23 02:48:51.385  INFO 3600 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:48:51.389  INFO 3600 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:48:51.474  INFO 3600 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/comments/3', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.CommentController.commentList', args=[3, {}]}
+2019-10-23 02:48:51.476  INFO 3600 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Result : blog :: commentList
+2019-10-23 02:49:02.236  INFO 3600 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.CommentController.post', args=[Comment{id=null, nickname='qwe', email='qingxiao4@gmail.com', content='qwee', avatar='null', createTime=null, adminComment=false, blog=Blog{id=1, title='null', content='null', firstPicture='null', flag='null', views=null, appreciation=false, shareStatment=false, commnentabled=false, published=false, recommend=false, createTime=null, updateTime=null}, replyComments=[], parentComment=Comment{id=-1, nickname='null', email='null', content='null', avatar='null', createTime=null, adminComment=false, blog=null, replyComments=[], parentComment=null}}, org.apache.catalina.session.StandardSessionFacade@be3fcdd]}
+2019-10-23 02:49:05.102  INFO 3600 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Result : redirect:/comments/1
+2019-10-23 02:49:05.133  INFO 3600 --- [http-nio-8080-exec-9] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/comments/1', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.CommentController.commentList', args=[1, {}]}
+2019-10-23 02:49:05.137  INFO 3600 --- [http-nio-8080-exec-9] com.moon.blog.aspect.LogAspect           : Result : blog :: commentList
+2019-10-23 02:49:13.204  INFO 3600 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:49:13.213  INFO 3600 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:49:13.468  INFO 3600 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:49:13.471  INFO 3600 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:49:14.571  INFO 3600 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/blog/22', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.blog', args=[22, {}]}
+2019-10-23 02:49:14.577  INFO 3600 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Result : blog
+2019-10-23 02:49:14.796  INFO 3600 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:49:14.800  INFO 3600 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:49:14.892  INFO 3600 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/comments/22', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.CommentController.commentList', args=[22, {}]}
+2019-10-23 02:49:14.912  INFO 3600 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Result : blog :: commentList
+2019-10-23 02:49:41.452  INFO 3600 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 1, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:49:41.460  INFO 3600 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:49:41.723  INFO 3600 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:49:41.727  INFO 3600 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:49:42.369  INFO 3600 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 2, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:49:42.378  INFO 3600 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:49:42.592  INFO 3600 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:49:42.595  INFO 3600 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:49:43.117  INFO 3600 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 3, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:49:43.125  INFO 3600 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:49:43.350  INFO 3600 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:49:43.353  INFO 3600 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:51:52.874  INFO 3600 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-23 02:51:52.876  INFO 3600 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 02:51:52.879  INFO 3600 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-23 02:51:52.882  INFO 3600 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-23 02:52:42.252  INFO 1372 --- [restartedMain] com.moon.blog.BlogApplication            : Starting BlogApplication on DESKTOP-KEV25DT with PID 1372 (F:\Language\java\blog-2\blog\target\classes started by MOONBT in F:\Language\java\blog-2\blog)
+2019-10-23 02:52:42.259 DEBUG 1372 --- [restartedMain] com.moon.blog.BlogApplication            : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-10-23 02:52:42.259  INFO 1372 --- [restartedMain] com.moon.blog.BlogApplication            : The following profiles are active: dev
+2019-10-23 02:52:42.326  INFO 1372 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\MOONBT\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2019-10-23 02:52:42.326  INFO 1372 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-23 02:52:42.326  INFO 1372 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-23 02:52:42.986  INFO 1372 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-23 02:52:43.063  INFO 1372 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69ms. Found 5 repository interfaces.
+2019-10-23 02:52:43.357  INFO 1372 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 02:52:43.753  INFO 1372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-23 02:52:43.761  INFO 1372 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-23 02:52:43.761  INFO 1372 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-23 02:52:43.887  INFO 1372 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-23 02:52:43.888  INFO 1372 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1562 ms
+2019-10-23 02:52:44.048  INFO 1372 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-10-23 02:52:44.099  INFO 1372 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2019-10-23 02:52:44.201  INFO 1372 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-10-23 02:52:44.277  INFO 1372 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-23 02:52:44.490  INFO 1372 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-23 02:52:44.501  INFO 1372 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-23 02:52:45.525  INFO 1372 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-10-23 02:52:45.533  INFO 1372 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 02:52:45.585  INFO 1372 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-23 02:52:46.426  WARN 1372 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-23 02:52:46.614  INFO 1372 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-23 02:52:46.706  INFO 1372 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-23 02:52:47.009  INFO 1372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-23 02:52:47.011  INFO 1372 --- [restartedMain] com.moon.blog.BlogApplication            : Started BlogApplication in 5.32 seconds (JVM running for 11.005)
+2019-10-23 02:52:55.020  INFO 1372 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-23 02:52:55.020  INFO 1372 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-23 02:52:55.032  INFO 1372 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2019-10-23 02:52:55.063  INFO 1372 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 2, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:52:55.148  WARN 1372 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-23 02:52:55.161  WARN 1372 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-23 02:52:55.168  INFO 1372 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:52:55.831  INFO 1372 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:52:55.838  INFO 1372 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:52:57.150  INFO 1372 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-10-23 02:52:57.163  INFO 1372 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Result : types
+2019-10-23 02:52:57.434  INFO 1372 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:52:57.440  INFO 1372 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:52:58.151  INFO 1372 --- [http-nio-8080-exec-9] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:52:58.161  INFO 1372 --- [http-nio-8080-exec-9] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:52:58.403  INFO 1372 --- [http-nio-8080-exec-8] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:52:58.407  INFO 1372 --- [http-nio-8080-exec-8] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:53:28.078  INFO 1372 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:53:28.088  INFO 1372 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:53:28.316  INFO 1372 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:53:28.320  INFO 1372 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:53:29.345  INFO 1372 --- [http-nio-8080-exec-8] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 1, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:53:29.355  INFO 1372 --- [http-nio-8080-exec-8] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:53:29.576  INFO 1372 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:53:29.580  INFO 1372 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:53:30.243  INFO 1372 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 2, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:53:30.251  INFO 1372 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:53:30.478  INFO 1372 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:53:30.483  INFO 1372 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:53:30.994  INFO 1372 --- [http-nio-8080-exec-8] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 1, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:53:31.002  INFO 1372 --- [http-nio-8080-exec-8] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:53:31.217  INFO 1372 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:53:31.221  INFO 1372 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:53:31.396  INFO 1372 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:53:31.404  INFO 1372 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:53:31.623  INFO 1372 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:53:31.626  INFO 1372 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:53:32.749  INFO 1372 --- [http-nio-8080-exec-8] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/blog/23', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.blog', args=[23, {}]}
+2019-10-23 02:53:32.796  INFO 1372 --- [http-nio-8080-exec-8] com.moon.blog.aspect.LogAspect           : Result : blog
+2019-10-23 02:53:33.017  INFO 1372 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:53:33.021  INFO 1372 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:53:33.113  INFO 1372 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/comments/23', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.CommentController.commentList', args=[23, {}]}
+2019-10-23 02:53:33.138  INFO 1372 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Result : blog :: commentList
+2019-10-23 02:54:18.854  INFO 1372 --- [http-nio-8080-exec-9] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/blog/23', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.blog', args=[23, {}]}
+2019-10-23 02:54:18.860  INFO 1372 --- [http-nio-8080-exec-9] com.moon.blog.aspect.LogAspect           : Result : blog
+2019-10-23 02:54:19.082  INFO 1372 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:54:19.085  INFO 1372 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:54:19.181  INFO 1372 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/comments/23', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.CommentController.commentList', args=[23, {}]}
+2019-10-23 02:54:19.185  INFO 1372 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Result : blog :: commentList
+2019-10-23 02:54:33.138  INFO 1372 --- [http-nio-8080-exec-8] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/blog/23', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.blog', args=[23, {}]}
+2019-10-23 02:54:33.143  INFO 1372 --- [http-nio-8080-exec-8] com.moon.blog.aspect.LogAspect           : Result : blog
+2019-10-23 02:54:33.355  INFO 1372 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:54:33.358  INFO 1372 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:54:33.457  INFO 1372 --- [http-nio-8080-exec-9] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/comments/23', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.CommentController.commentList', args=[23, {}]}
+2019-10-23 02:54:33.460  INFO 1372 --- [http-nio-8080-exec-9] com.moon.blog.aspect.LogAspect           : Result : blog :: commentList
+2019-10-23 02:55:04.591  INFO 1372 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 1, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:55:04.597  INFO 1372 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:55:04.841  INFO 1372 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:55:04.844  INFO 1372 --- [http-nio-8080-exec-7] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:55:05.464  INFO 1372 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 2, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:55:05.472  INFO 1372 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:55:05.682  INFO 1372 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:55:05.685  INFO 1372 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:55:06.972  INFO 1372 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 1, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:55:06.978  INFO 1372 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:55:07.240  INFO 1372 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:55:07.243  INFO 1372 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:55:39.643  INFO 1372 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/blog/23', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.blog', args=[23, {}]}
+2019-10-23 02:55:39.649  INFO 1372 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Result : blog
+2019-10-23 02:55:39.863  INFO 1372 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:55:39.866  INFO 1372 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:55:39.959  INFO 1372 --- [http-nio-8080-exec-8] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/comments/23', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.CommentController.commentList', args=[23, {}]}
+2019-10-23 02:55:39.964  INFO 1372 --- [http-nio-8080-exec-8] com.moon.blog.aspect.LogAspect           : Result : blog :: commentList
+2019-10-23 02:55:41.821  INFO 1372 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-23 02:55:41.828  INFO 1372 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-23 02:55:42.044  INFO 1372 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:55:42.047  INFO 1372 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:55:43.322  INFO 1372 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/blog/47', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.blog', args=[47, {}]}
+2019-10-23 02:55:43.327  INFO 1372 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Result : blog
+2019-10-23 02:55:43.543  INFO 1372 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:55:43.547  INFO 1372 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:55:43.638  INFO 1372 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/comments/47', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.CommentController.commentList', args=[47, {}]}
+2019-10-23 02:55:43.640  INFO 1372 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Result : blog :: commentList
+2019-10-23 02:55:56.537  INFO 1372 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/blog/47', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.blog', args=[47, {}]}
+2019-10-23 02:55:56.542  INFO 1372 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Result : blog
+2019-10-23 02:55:56.764  INFO 1372 --- [http-nio-8080-exec-8] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 02:55:56.768  INFO 1372 --- [http-nio-8080-exec-8] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-23 02:55:56.858  INFO 1372 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/comments/47', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.CommentController.commentList', args=[47, {}]}
+2019-10-23 02:55:56.860  INFO 1372 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Result : blog :: commentList
+2019-10-23 02:59:16.870  INFO 1372 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-23 02:59:16.871  INFO 1372 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 02:59:16.875  INFO 1372 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-23 02:59:16.878  INFO 1372 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-23 03:01:04.210  INFO 19524 --- [restartedMain] com.moon.blog.BlogApplication            : Starting BlogApplication on DESKTOP-KEV25DT with PID 19524 (F:\Language\java\blog-2\blog\target\classes started by MOONBT in F:\Language\java\blog-2\blog)
+2019-10-23 03:01:04.214 DEBUG 19524 --- [restartedMain] com.moon.blog.BlogApplication            : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-10-23 03:01:04.214  INFO 19524 --- [restartedMain] com.moon.blog.BlogApplication            : The following profiles are active: dev
+2019-10-23 03:01:04.304  INFO 19524 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\MOONBT\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2019-10-23 03:01:04.304  INFO 19524 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-23 03:01:04.304  INFO 19524 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-23 03:01:05.054  INFO 19524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-23 03:01:05.127  INFO 19524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66ms. Found 5 repository interfaces.
+2019-10-23 03:01:05.411  INFO 19524 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 03:01:05.788  INFO 19524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-23 03:01:05.796  INFO 19524 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-23 03:01:05.796  INFO 19524 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-23 03:01:05.866  INFO 19524 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-23 03:01:05.866  INFO 19524 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1562 ms
+2019-10-23 03:01:06.071  INFO 19524 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-10-23 03:01:06.122  INFO 19524 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2019-10-23 03:01:06.223  INFO 19524 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-10-23 03:01:06.301  INFO 19524 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-23 03:01:06.516  INFO 19524 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-23 03:01:06.527  INFO 19524 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-23 03:01:07.492  INFO 19524 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-10-23 03:01:07.499  INFO 19524 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 03:01:07.556  INFO 19524 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-23 03:01:08.435  WARN 19524 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-23 03:01:08.624  INFO 19524 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-23 03:01:08.718  INFO 19524 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-23 03:01:09.024  INFO 19524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-23 03:01:09.027  INFO 19524 --- [restartedMain] com.moon.blog.BlogApplication            : Started BlogApplication in 5.668 seconds (JVM running for 11.338)
+2019-10-23 03:01:12.561  INFO 19524 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-23 03:01:12.561  INFO 19524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-23 03:01:12.574  INFO 19524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2019-10-23 03:02:09.916  WARN 19524 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m3s297ms654µs500ns).
+2019-10-23 03:02:55.509  WARN 19524 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s593ms605µs300ns).
+2019-10-23 03:05:49.001  WARN 19524 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m19s800ms907µs200ns).
+2019-10-23 03:05:49.120  INFO 19524 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-23 03:05:49.122  INFO 19524 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 03:05:49.125  INFO 19524 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-23 03:05:49.128  INFO 19524 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-23 03:06:31.219  INFO 18292 --- [restartedMain] com.moon.blog.BlogApplication            : Starting BlogApplication on DESKTOP-KEV25DT with PID 18292 (F:\Language\java\blog-2\blog\target\classes started by MOONBT in F:\Language\java\blog-2\blog)
+2019-10-23 03:06:31.222 DEBUG 18292 --- [restartedMain] com.moon.blog.BlogApplication            : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-10-23 03:06:31.223  INFO 18292 --- [restartedMain] com.moon.blog.BlogApplication            : The following profiles are active: dev
+2019-10-23 03:06:31.286  INFO 18292 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\MOONBT\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2019-10-23 03:06:31.287  INFO 18292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-23 03:06:31.287  INFO 18292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-23 03:06:31.879  INFO 18292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-23 03:06:31.952  INFO 18292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65ms. Found 5 repository interfaces.
+2019-10-23 03:06:32.279  INFO 18292 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 03:06:32.788  INFO 18292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-23 03:06:32.797  INFO 18292 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-23 03:06:32.797  INFO 18292 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-23 03:06:32.923  INFO 18292 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-23 03:06:32.923  INFO 18292 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1636 ms
+2019-10-23 03:06:33.119  INFO 18292 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-10-23 03:06:33.192  INFO 18292 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2019-10-23 03:06:33.310  INFO 18292 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-10-23 03:06:33.418  INFO 18292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-23 03:06:33.650  INFO 18292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-23 03:06:33.662  INFO 18292 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-23 03:06:34.826  INFO 18292 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-10-23 03:06:34.832  INFO 18292 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 03:06:34.885  INFO 18292 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-23 03:06:35.861  WARN 18292 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-23 03:06:36.062  INFO 18292 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-23 03:06:36.192  INFO 18292 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-23 03:06:36.510  INFO 18292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-23 03:06:36.512  INFO 18292 --- [restartedMain] com.moon.blog.BlogApplication            : Started BlogApplication in 5.912 seconds (JVM running for 11.679)
+2019-10-23 03:06:48.516  INFO 18292 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-23 03:06:48.516  INFO 18292 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-23 03:06:48.528  INFO 18292 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-10-23 03:07:06.995  INFO 18292 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/blog/47', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.blog', args=[47, {}]}
+2019-10-23 03:07:07.039  INFO 18292 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Result : blog
+2019-10-23 03:07:07.331  INFO 18292 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-23 03:07:07.338  INFO 18292 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
