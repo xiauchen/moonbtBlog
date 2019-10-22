@@ -18,9 +18,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.criteria.*;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 @Service
 public class BlogServiceImpl implements BlogService{
@@ -97,6 +95,16 @@ public class BlogServiceImpl implements BlogService{
         return blogRepository.findTop(pageable);
     }
 
+    @Override
+    public Map<String, List<Blog>> archiveBlog() {
+        List<String> years = blogRepository.findByGroupYear();
+        Map<String,List<Blog>> map = new HashMap<>();
+        for (String year : years){
+            map.put(year,blogRepository.findByYear(year));
+        }
+        return map;
+    }
+
 
     @Transactional
     @Override
@@ -128,5 +136,10 @@ public class BlogServiceImpl implements BlogService{
     public void deleteBlog(Long id) {
         blogRepository.deleteById(id);
 
+    }
+
+    @Override
+    public Long countBlog() {
+        return blogRepository.count();
     }
 }
