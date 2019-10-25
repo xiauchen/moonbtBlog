@@ -4,7 +4,6 @@ spring:
     url: jdbc:mysql://rds-mysql-10mintutorial.cule5emko5gc.us-west-2.rds.amazonaws.com:3306/blog?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
     username: masterUsername
     password: Abc9761008
-
   jpa:
     database-platform: org.hibernate.dialect.MySQL5Dialect
     hibernate:
