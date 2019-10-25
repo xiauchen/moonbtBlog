@@ -6,6 +6,21 @@
 
 Demo  : [moonbtBlog](http://54.187.138.200/) 
 
+### 使用技術和框架
+* 後端
+  - Java 8
+  - Spring boot
+  - Maven
+  - Jpa (JDBC control)
+  - slf4j(日志)
+*前端
+  - semantic UI
+  - jquery
+  - JavaScript
+  - html/css
+*資料庫
+  - mysql 8
+
 ### 項目地圖
 * src
   - main
