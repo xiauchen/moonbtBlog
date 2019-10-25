@@ -17,3 +17,5 @@ logging:
     com.moon.blog: debug
   file:
     name: log/blog-dev.log
+server:
+  port: 80
