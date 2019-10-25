@@ -2,7 +2,9 @@
 開頭先感謝 李仁密 老師
 
 ### 説明
-這是Blog 網站的所有，代碼。
+這是一個新時代的部落格網格，使用sementic UI，也進行了手機端的適應。
+
+### 項目地圖
 * src
   - main
     - java
@@ -16,11 +18,11 @@
         - handler: server内部處理錯誤,轉發到error頁面
         - interceptor:攔截非登錄用戶，進入後臺
         - vo     :處理首頁blog的輔助類
-    -resources
-      -i18n:多囯語言配置
-      -static
-        -css
-        -lib
-        -images
-        -js
-      -templates:相關靜態頁面
+    - resources
+      - i18n:多囯語言配置
+      - static
+        - css
+        - lib
+        - images
+        - js
+      - templates:相關靜態頁面
