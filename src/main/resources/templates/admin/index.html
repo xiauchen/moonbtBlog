@@ -42,7 +42,8 @@
       <div class="ui container">
          <div class="ui success large message">
             <h3>Hi,</h3>
-            <p>歡迎登錄!</p>
+            <p><span type="text" name="nickname"
+                     th:text="${session.user}!=null ? ${session.user.nickname}"></span> 歡迎登錄!</p>
          </div>
          <img src="https://picsum.photos/id/0/800/400" class="ui rounded bordered fluid image">
       </div>

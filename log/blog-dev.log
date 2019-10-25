@@ -1620,3 +1620,82 @@ org.springframework.expression.spel.SpelEvaluationException: EL1011E: Method cal
 2019-10-23 03:07:07.039  INFO 18292 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Result : blog
 2019-10-23 03:07:07.331  INFO 18292 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
 2019-10-23 03:07:07.338  INFO 18292 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-24 16:13:40.992  INFO 6008 --- [restartedMain] com.moon.blog.BlogApplication            : Starting BlogApplication on DESKTOP-KEV25DT with PID 6008 (F:\Language\java\blog-2\blog\target\classes started by MOONBT in F:\Language\java\blog-2\blog)
+2019-10-24 16:13:40.995 DEBUG 6008 --- [restartedMain] com.moon.blog.BlogApplication            : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-10-24 16:13:40.995  INFO 6008 --- [restartedMain] com.moon.blog.BlogApplication            : The following profiles are active: dev
+2019-10-24 16:13:41.035  INFO 6008 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\MOONBT\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/MOONBT/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2019-10-24 16:13:41.035  INFO 6008 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-24 16:13:41.035  INFO 6008 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-24 16:13:41.582  INFO 6008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-24 16:13:41.649  INFO 6008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61ms. Found 5 repository interfaces.
+2019-10-24 16:13:41.956  INFO 6008 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-24 16:13:42.302  INFO 6008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-24 16:13:42.309  INFO 6008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-24 16:13:42.309  INFO 6008 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-24 16:13:42.388  INFO 6008 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-24 16:13:42.388  INFO 6008 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1353 ms
+2019-10-24 16:13:42.567  INFO 6008 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-10-24 16:13:42.610  INFO 6008 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2019-10-24 16:13:42.697  INFO 6008 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-10-24 16:13:42.763  INFO 6008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-24 16:13:42.962  INFO 6008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-24 16:13:42.971  INFO 6008 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-24 16:13:43.772  INFO 6008 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-10-24 16:13:43.777  INFO 6008 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-24 16:13:43.853  INFO 6008 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-24 16:13:44.768  WARN 6008 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-24 16:13:44.942  INFO 6008 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 16:13:45.028  INFO 6008 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-24 16:13:45.310  INFO 6008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-24 16:13:45.312  INFO 6008 --- [restartedMain] com.moon.blog.BlogApplication            : Started BlogApplication in 4.873 seconds (JVM running for 10.724)
+2019-10-24 16:13:45.572  INFO 6008 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-24 16:13:45.572  INFO 6008 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-24 16:13:45.582  INFO 6008 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-10-24 16:13:45.607  INFO 6008 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='127.0.0.1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-24 16:13:45.685  WARN 6008 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-24 16:13:45.697  WARN 6008 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-24 16:13:45.703  INFO 6008 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-24 16:13:45.869  INFO 6008 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-24 16:13:45.885  INFO 6008 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-24 16:13:46.585  INFO 6008 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-24 16:13:46.589  INFO 6008 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-24 16:13:48.099  INFO 6008 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/blog/23', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.blog', args=[23, {}]}
+2019-10-24 16:13:48.147  INFO 6008 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Result : blog
+2019-10-24 16:13:48.434  INFO 6008 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-24 16:13:48.438  INFO 6008 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-24 16:13:48.533  INFO 6008 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/comments/23', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.CommentController.commentList', args=[23, {}]}
+2019-10-24 16:13:48.556  INFO 6008 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Result : blog :: commentList
+2019-10-24 16:13:59.424  INFO 6008 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/blog/22', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.blog', args=[22, {}]}
+2019-10-24 16:13:59.432  INFO 6008 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Result : blog
+2019-10-24 16:13:59.664  INFO 6008 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-24 16:13:59.668  INFO 6008 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-24 16:13:59.765  INFO 6008 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/comments/22', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.CommentController.commentList', args=[22, {}]}
+2019-10-24 16:13:59.788  INFO 6008 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Result : blog :: commentList
+2019-10-24 16:14:33.664  INFO 6008 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/blog/22', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.blog', args=[22, {}]}
+2019-10-24 16:14:33.677  INFO 6008 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Result : blog
+2019-10-24 16:14:33.929  INFO 6008 --- [http-nio-8080-exec-8] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-24 16:14:33.934  INFO 6008 --- [http-nio-8080-exec-8] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-24 16:14:34.042  INFO 6008 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/comments/22', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.CommentController.commentList', args=[22, {}]}
+2019-10-24 16:14:34.060  INFO 6008 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Result : blog :: commentList
+2019-10-24 16:14:38.685  INFO 6008 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/blog/23', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.blog', args=[23, {}]}
+2019-10-24 16:14:38.693  INFO 6008 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Result : blog
+2019-10-24 16:14:38.925  INFO 6008 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-24 16:14:38.928  INFO 6008 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-24 16:14:39.017  INFO 6008 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/comments/23', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.CommentController.commentList', args=[23, {}]}
+2019-10-24 16:14:39.024  INFO 6008 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Result : blog :: commentList
+2019-10-24 16:17:53.783  INFO 6008 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-24 16:17:53.793  INFO 6008 --- [http-nio-8080-exec-10] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-24 16:17:54.077  INFO 6008 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-24 16:17:54.080  INFO 6008 --- [http-nio-8080-exec-1] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-24 19:23:09.301  INFO 6008 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-24 19:23:09.349  INFO 6008 --- [http-nio-8080-exec-4] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-24 19:23:09.678  INFO 6008 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-24 19:23:09.680  INFO 6008 --- [http-nio-8080-exec-2] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-24 19:23:11.694  INFO 6008 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-24 19:23:11.701  INFO 6008 --- [http-nio-8080-exec-5] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-24 19:23:11.909  INFO 6008 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-24 19:23:11.912  INFO 6008 --- [http-nio-8080-exec-3] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
+2019-10-24 19:23:13.087  INFO 6008 --- [http-nio-8080-exec-8] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.index', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}]}
+2019-10-24 19:23:13.096  INFO 6008 --- [http-nio-8080-exec-8] com.moon.blog.aspect.LogAspect           : Result : index
+2019-10-24 19:23:13.304  INFO 6008 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.moon.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-24 19:23:13.306  INFO 6008 --- [http-nio-8080-exec-6] com.moon.blog.aspect.LogAspect           : Result : _fragments :: newblogList
