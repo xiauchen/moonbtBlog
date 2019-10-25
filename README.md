@@ -13,12 +13,12 @@ Demo  : [moonbtBlog](http://54.187.138.200/)
   - Maven
   - Jpa (JDBC control)
   - slf4j(日志)
-*前端
+* 前端
   - semantic UI
   - jquery
   - JavaScript
   - html/css
-*資料庫
+* 資料庫
   - mysql 8
 
 ### 項目地圖
